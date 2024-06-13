@@ -1,5 +1,5 @@
 # Desafio
-Repositório que possuí o código com o desafio concluído. Espero que gostem!
+Repositório que possui o código com o desafio concluído. Espero que gostem!
 
 # Como rodar?
 Para rodar o site localmente, clone o projeto e após acessar o repositório clonado realize os seguintes comandos:
