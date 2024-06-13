@@ -64,15 +64,26 @@ nav a:hover {
     background: linear-gradient(to right, #ff91f6, #b258fb);
 }
 
-.carrossel {
+.carrosselContainer {
     width: 100%;
-    height: 100vh;
+    position: absolute;
+    top: 300px;
     display: flex;
-    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerTextCarrossel {
+    width: 100%;
+    display: flex;
     align-items: center;
     flex-direction: column;
-    position: absolute;
-    top: 100px;
+}
+
+.carrossel {
+    width: 50%; 
+    display: flex;
 }
 
 .textCarrossel {
@@ -108,4 +119,12 @@ nav a:hover {
     background-color: transparent;
     border: 2px solid #fff;
     backdrop-filter: blur(3px);
+}
+
+.buttonOucaAgoraImage {
+    background-image: url('./../assets//reprodutor-de-musica.png');
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+    background-position: 10px;
+    padding-left: 40px;
 }
