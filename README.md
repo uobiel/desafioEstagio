@@ -1,5 +1,5 @@
-# desafioEstagio
-Repositório com o desafio.
+## Desafio
+Repositório que possuí o código com o desafio concluído. Espero que gostem!
 
 ## Objetivo
 Meu objetivo é chegar o mais próximo possível ao desafio que foi enviado.
