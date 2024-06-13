@@ -13,3 +13,6 @@ Meu objetivo é chegar o mais próximo possível ao desafio que foi enviado e or
 Para codar utilizei o nosso queridinho - React! 
 Como de costume criei o projeto utilizando rotas, com a biblioteca react-router-dom.
 Para dar um efeito bacana quando a página é renderizada utilizei a biblioteca ScrollReveal.
+
+## Maior desafio?
+Meu maior desafio vai ser sem dúvidas o carrossel, nunca cheguei a criar um em meus projetos 😳
