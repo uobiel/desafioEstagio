@@ -7,6 +7,11 @@
     font-optical-sizing: auto;
 }
 
+@keyframes efeitoTranslate {
+    0% {transform: translate(70px)}
+    100% {transform: translate(0px)}
+}
+
 body {
     overflow-x: hidden;
 }
@@ -14,14 +19,17 @@ body {
 header {
     background-color: rgba(0, 0, 0, 0.449);
     backdrop-filter: blur(2px);
-    padding: 20px;
     width: 100%;
-    height: 50px;
+    height: 100px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
     top: 0;
+}
+
+.container {
+    width: 100%;
 }
 
 .logoContainer {
@@ -87,8 +95,9 @@ nav a:hover {
 }
 
 .textCarrossel {
-    font-size: 50px;
+    font-size: 70px;
     color: #F9FAF4;
+    cursor: default;
 }
 
 .buttonLayout {
@@ -127,4 +136,211 @@ nav a:hover {
     background-size: auto 60%;
     background-position: 10px;
     padding-left: 40px;
+}
+
+/* ESTILOS DA SESSÃO DOIS */
+
+.sessaoDois {
+    width: 100%;
+    height: 500px;
+    background-color: #F9FAF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden; 
+}
+
+.albuns, .textosAlbuns {
+    width: 100%;
+    height: auto;
+}
+
+.albuns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linha {
+    width: 75%;
+    height: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardImg {
+    width: 49%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.img1 {
+    background-image: url('../assets/img1.jpg');
+}
+
+.img2 {
+    background-image: url('../assets/img2.jpg');
+}
+
+.img3 {
+    background-image: url('../assets/img3.jpg');
+}
+
+.img4 {
+    background-image: url('../assets/img4.jpg');
+}
+
+.img5 {
+    background-image: url('../assets/1.jpeg');
+}
+
+.img6 {
+    background-image: url('../assets/2.jpeg');
+
+}
+
+.img7 {
+    background-image: url('../assets/3.jpeg');
+}
+
+.img8 {
+    background-image: url('../assets/4.jpeg');
+}
+
+.textosAlbuns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textosAlbuns h1, h2{
+    color: #894EF1;
+}
+
+.textosAlbuns  h1 {
+    font-size: 34px;
+}
+
+.textosAlbuns > h2 {
+    font-size: 25px;
+}
+
+.containerText2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.containerText2 * {
+    margin: 10px;
+}
+
+.efeitoTranslate {
+    animation-name: efeitoTranslate;
+    animation-duration: 2s;
+}
+
+/* ESTILOS DA SESSÃO DOIS */
+
+.sessaoTres {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSessaoTres {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSessaoTres .content{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerSessaoTres .texto{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.containerSessaoTres .texto h2{
+    color: #B5E2E2;
+}
+
+.containerSessaoTres .texto h1{
+    font-size: 35px;
+}
+
+.containerSessaoTres .imagens {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.iphone1 {
+    transform: rotate(15deg);
+    position: absolute;
+    top: -200px; 
+    left: 50px;
+    height: 500px;
+}
+
+.iphone2 {
+    transform: rotate(15deg);
+    position: absolute;
+    top: 50px; 
+    left: 250px;
+    height: 500px;
+}
+
+.footerBlack {
+    height: 250px;
+    width: 100%;
+    background-color: #1E1E1E;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footerBlack .content {
+    height: auto;
+}
+
+.containerSocial img{
+    height: 50px;
+}
+
+.footerBlack .logoContainer {
+    width: 20%;
+}
+
+::-webkit-scrollbar {
+    width: 0px; 
 }
