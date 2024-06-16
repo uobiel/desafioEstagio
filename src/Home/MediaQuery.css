@@ -1,0 +1,87 @@
+/* Adicionado com o objetivo de ficar minimamente responsível. Não visando 100% a resposividade. */
+
+@media (max-width: 1200px) {
+
+    header {
+        background-color: rgba(0, 0, 0, 0.449);
+        backdrop-filter: blur(2px);
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        padding: 0;
+    }
+
+    nav {
+        width: 40%;
+    }
+
+    .iphoneQuery {
+        display: none;
+    }
+
+    .textQuery {
+        font-size: 60px;
+    }
+
+    .carrosselMedia {
+        width: 100%;
+    }
+
+    .contentMedia {
+        width: 100%;
+        height: 70%;
+    }
+}
+
+@media (max-width: 700px) {
+    .textQuery {
+        font-size: 30px;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 10px 0px 10px 0px;
+    }
+
+    nav {
+        width: 80%;
+    }
+
+    .logoQuery {
+        background-position: center;
+        margin-bottom: 10px;
+    }
+
+    .sessaoDoisQuery {
+        height: 400px;
+    }
+
+    .sessaoTresQuery {
+        width: 100%;
+    }
+
+    .textoSessaoTresQuery {
+        width: 100%;
+    }
+
+    .imagensContainerQuery {
+        display: none;
+    }
+
+    
+    .buttonMedia {
+        display: flex;
+    }
+
+    .buttonMedia button {
+        width: 150px;
+        padding: 5px;
+        margin: 10px;
+        font-size: 10px;
+    }
+
+}
